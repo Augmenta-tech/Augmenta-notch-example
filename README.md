@@ -1,7 +1,10 @@
-# Augmenta-notch-example
+﻿Augmenta for Notch
+=======================
 
-A simple example demonstrating Augmenta and notch
+Unity examples using the [Augmenta-Unity](https://github.com/theoriz/augmentaunity) library created by [Théoriz](http://www.theoriz.com/en/).
 
-Limitation : Currently work for only one person
 
-Thanks to Raphaël Dupont for sharing his patch !
+Exemple
+-------------------------------------
+![Notch-Augmenta](https://user-images.githubusercontent.com/64955193/136235171-f96533bb-cc09-4945-a98a-d9572686424b.gif)
+
