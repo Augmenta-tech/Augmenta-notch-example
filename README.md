@@ -1,7 +1,7 @@
 ﻿Augmenta for Notch
 =======================
 
-Unity examples using the [Augmenta-Unity](https://github.com/theoriz/augmentaunity) library created by [Théoriz](http://www.theoriz.com/en/).
+Notch examples using the [Augmenta-Unity](https://github.com/theoriz/augmentaunity) library created by [Théoriz](http://www.theoriz.com/en/).
 
 
 Exemple
