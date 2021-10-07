@@ -33,12 +33,30 @@ To start developping your application you probably need Augmenta data.For that :
 
 ![image](https://user-images.githubusercontent.com/64955193/136350654-55c8afbe-c2a3-4dce-9711-abe73837b654.png)
 
+
 ### Set Resolution Viewport
 
 -  Project / Settings / Rendering : Output Width, Output Height
 
 ![Capture3](https://user-images.githubusercontent.com/64955193/136353915-155349b5-822f-4c6f-ac42-8d3975200ba1.PNG)
 
+
+### Create
+
+Your are ready now to make your own creation with Notch and Augmenta ! Enjoy and share it ;)
+
+![Capture4](https://user-images.githubusercontent.com/64955193/136355875-159e1d08-1439-473b-89cd-d731c5b9ec63.PNG)
+
+
+Augmenta Documentation
+-------------
+
+https://github.com/Theoriz/Augmenta/wiki
+
+Version
+-------------
+
+Notch Builder 0.9.23.209
 
 
 
