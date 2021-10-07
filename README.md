@@ -18,7 +18,7 @@ How to use
 
 To start developping your application you probably need Augmenta data.For that :
 
-- Download the last version of ![Fusion](https://gofile-3275575478.fr2.quickconnect.to/sharing/rTiRtHTVT)
+- Download the last version of [Fusion](https://gofile-3275575478.fr2.quickconnect.to/sharing/rTiRtHTVT)
 - Setup your scene 
 - Make 2 output : OSC and TUIO with different port
 
@@ -36,6 +36,7 @@ To start developping your application you probably need Augmenta data.For that :
 ### Set Resolution Viewport
 
 -  Project / Settings / Rendering : Output Width, Output Height
+
 ![Capture3](https://user-images.githubusercontent.com/64955193/136353915-155349b5-822f-4c6f-ac42-8d3975200ba1.PNG)
 
 
