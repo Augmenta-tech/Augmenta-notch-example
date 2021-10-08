@@ -24,7 +24,7 @@ To start developping your application you probably need some [Augmenta] data. Fo
 - Setup your scene by entering the size in meter and the resolution in pixel 
 - Create two outputs : TUIO and OSC
 
-![Capture2](https://user-images.githubusercontent.com/64955193/136353492-76d841ec-bde9-4c41-87be-75a66fc46ea3.PNG)
+![Fusion](https://user-images.githubusercontent.com/64955193/136575151-a3a772e6-d82a-41be-885e-11c59c123d3c.PNG)
 
 
 ### Receive Data in [Notch] : TUIO / OSC
@@ -35,8 +35,7 @@ To start developping your application you probably need some [Augmenta] data. Fo
 - Enter the TUIO receive port 
 - Enter OSC receive port
 
-![image](https://user-images.githubusercontent.com/64955193/136350654-55c8afbe-c2a3-4dce-9711-abe73837b654.png)
-
+![settings](https://user-images.githubusercontent.com/64955193/136575184-7b86d9c7-24b6-427a-9edb-86d9393edeeb.PNG)
 
 ### Set Resolution Viewport
 
