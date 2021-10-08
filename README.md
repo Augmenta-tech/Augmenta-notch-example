@@ -1,13 +1,13 @@
 ﻿Augmenta for Notch
 =======================
 
-Notch examples using the [Augmenta-Unity](https://github.com/theoriz/augmentaunity) library created by [Théoriz](http://www.theoriz.com/en/).
+[Notch](https://www.notch.one/) examples (using the TUIO OSC protocol). Library created by [THEORIZ Studio](http://www.theoriz.com/en/).
 
-Tutorial Youtube
+Youtube tutorial
 -------------------------------------
 https://www.youtube.com/watch?v=3uz8RHAXWkc&ab_channel=Augmenta
 
-Exemple
+Example
 -------------------------------------
 ![Notch-Augmenta](https://user-images.githubusercontent.com/64955193/136235171-f96533bb-cc09-4945-a98a-d9572686424b.gif)
 
@@ -16,19 +16,23 @@ How to use
 
 ### Setup
 
-To start developping your application you probably need Augmenta data.For that :
+To start developping your application you probably need some Augmenta data. For that :
 
-- Download the last version of [Fusion](https://gofile-3275575478.fr2.quickconnect.to/sharing/rTiRtHTVT)
-- Setup your scene 
-- Make 2 output : OSC and TUIO with different port
+/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion for now, the next link is a bleeding edge temporary version)
+
+- Download the latest version of [Fusion](https://gofile-3275575478.fr2.quickconnect.to/sharing/rTiRtHTVT)
+- Setup your scene by entering the size in meter and the resolution in pixel 
+- Create two outputs : TUIO and OSC
 
 ![Capture2](https://user-images.githubusercontent.com/64955193/136353492-76d841ec-bde9-4c41-87be-75a66fc46ea3.PNG)
 
 
-### Receive Data from Notch : TUIO / OSC
+### Receive Data in Notch : TUIO / OSC
+
+(These steps are already done in the example)
 
 - Enable TUIO in your project : go to Project / Settings / Protocols 
-- Enter TUIO receive port
+- Enter the TUIO receive port 
 - Enter OSC receive port
 
 ![image](https://user-images.githubusercontent.com/64955193/136350654-55c8afbe-c2a3-4dce-9711-abe73837b654.png)
