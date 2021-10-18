@@ -18,13 +18,14 @@ How to use
 
 To start developping your application you probably need some [Augmenta] data. For that :
 
-/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion for now, the next link is a bleeding edge temporary version)
+_/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion for now._
 
-- Download the latest version of [Fusion](https://gofile-3275575478.fr2.quickconnect.to/sharing/rTiRtHTVT)
+- Download the latest version of [Fusion](https://augmenta-tech.com/fusion-files/download/)
 - Setup your scene by entering the size in meter and the resolution in pixel 
-- Create two outputs : TUIO and OSC
+- Create TUIO output
+- Select Notch preset
 
-![Fusion](https://user-images.githubusercontent.com/64955193/136575151-a3a772e6-d82a-41be-885e-11c59c123d3c.PNG)
+![Tuio](https://user-images.githubusercontent.com/64955193/137764972-3e06edfb-7566-49af-8878-5157aa73b409.PNG)
 
 
 ### Receive Data in [Notch] : TUIO / OSC
@@ -35,7 +36,8 @@ To start developping your application you probably need some [Augmenta] data. Fo
 - Enter the TUIO receive port 
 - Enter OSC receive port
 
-![settings](https://user-images.githubusercontent.com/64955193/136575184-7b86d9c7-24b6-427a-9edb-86d9393edeeb.PNG)
+![port](https://user-images.githubusercontent.com/64955193/137765361-a8629c1f-4c30-49f6-9c40-6308861d797f.PNG)
+
 
 ### Set Resolution Viewport
 
@@ -50,7 +52,7 @@ To start developping your application you probably need some [Augmenta] data. Fo
 
 Your are ready now to make your own creation with [Notch] and [Augmenta] ! Enjoy and share it ;)
 
-![Capture4](https://user-images.githubusercontent.com/64955193/136355875-159e1d08-1439-473b-89cd-d731c5b9ec63.PNG)
+![notch](https://user-images.githubusercontent.com/64955193/137765010-f3080e04-b7bc-4554-96cc-15916cfb9879.PNG)
 
 
 [Augmenta] Documentation
