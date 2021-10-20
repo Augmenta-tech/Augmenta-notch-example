@@ -20,7 +20,7 @@ To start developping your application you probably need some [Augmenta] data. Fo
 
 _/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion for now._
 
-- Download the latest version of [Fusion](https://augmenta-tech.com/fusion-files/download/)
+- Get the latest version of Fusion
 - Setup your scene by entering the size in meter and the resolution in pixel 
 - Create TUIO output
 - Select Notch preset
