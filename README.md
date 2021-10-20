@@ -30,7 +30,7 @@ _/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion 
 
 ### Receive Data in [Notch] : TUIO / OSC
 
-(These steps are already setutpTLth in the example)
+(These steps are already setup in the example)
 
 - Enable TUIO in your project : go to Project / Settings / Protocols 
 - Enter the TUIO receive port 
@@ -39,7 +39,7 @@ _/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion 
 ![port](https://user-images.githubusercontent.com/64955193/137765361-a8629c1f-4c30-49f6-9c40-6308861d797f.PNG)
 
 
-### Set Resolution Viewport
+### Set resolution viewport
 
 (The example provided has a Spout and NDI video output)
 
