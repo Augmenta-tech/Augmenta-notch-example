@@ -7,6 +7,16 @@ Youtube tutorial
 -------------------------------------
 https://www.youtube.com/watch?v=3uz8RHAXWkc&ab_channel=Augmenta
 
+Notch for Media Server
+-------------------------------------
+> TUIO / OSC Data **INSIDE** Notch
+- [LightAct Tutorial](https://www.youtube.com/watch?v=7BTLzxSvlQY&t=78s)
+- [Disguise Tutorial](https://www.youtube.com/watch?v=a94huZb3eso)
+- [TouchDesigner Tutorial](https://www.youtube.com/watch?v=rA1mfUYWc44)
+
+> TUIO / OSC Data **OUTSIDE** Notch
+- [TouchDesigner Tutorial](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
+
 Example
 -------------------------------------
 ![Notch-Augmenta](https://user-images.githubusercontent.com/64955193/136235171-f96533bb-cc09-4945-a98a-d9572686424b.gif)
