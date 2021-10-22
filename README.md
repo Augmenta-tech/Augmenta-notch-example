@@ -16,6 +16,7 @@ Notch for Media Server
 
 > TUIO / OSC Data **OUTSIDE** Notch
 - [TouchDesigner Tutorial](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
+- [LightAct Tutorial](https://www.youtube.com/watch?v=j2YtyYr69j4)
 
 Example
 -------------------------------------
