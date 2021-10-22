@@ -1,29 +1,82 @@
 ﻿Augmenta for [Notch]
 =======================
 
-[Notch] examples (using the TUIO OSC protocol). Library created by [THEORIZ Studio].
+[Notch] example (using the TUIO + OSC protocol) created by [THEORIZ Studio]
+____________________
+
+![Notch-Augmenta](https://user-images.githubusercontent.com/64955193/136235171-f96533bb-cc09-4945-a98a-d9572686424b.gif)
 
 Youtube tutorial
 -------------------------------------
-https://www.youtube.com/watch?v=3uz8RHAXWkc&ab_channel=Augmenta
 
-Notch for Media Server
+### Notch standalone
+
+- [Notch tutorial](https://www.youtube.com/watch?v=3uz8RHAXWkc&ab_channel=Augmenta)
+
+### Notch block embedded in media servers
+
+> Receiving TUIO / OSC Data from **INSIDE** the Notch block
+- [Notch + Lightact tutorial](https://www.youtube.com/watch?v=7BTLzxSvlQY&t=78s)
+- [Notch + Disguise tutorial](https://www.youtube.com/watch?v=a94huZb3eso)
+- [Notch + TouchDesigner tutorial](https://www.youtube.com/watch?v=rA1mfUYWc44)
+- [Notch + Smode tutorial](https://www.youtube.com/watch?v=YKmIBkiyZYs)
+
+
+> Receiving TUIO / OSC Data from **OUTSIDE** the Notch block
+- [Notch + TouchDesigner](https://www.youtube.com/watch?v=ZgbljA4bN-8)
+- [Notch + LightAct](https://www.youtube.com/watch?v=j2YtyYr69j4)
+
+How to : Notch block for media servers
 -------------------------------------
-> TUIO / OSC Data **INSIDE** Notch
-- [LightAct Tutorial](https://www.youtube.com/watch?v=7BTLzxSvlQY&t=78s)
-- [Disguise Tutorial](https://www.youtube.com/watch?v=a94huZb3eso)
-- [TouchDesigner Tutorial](https://www.youtube.com/watch?v=rA1mfUYWc44)
-- [Smode Tutorial](https://www.youtube.com/watch?v=YKmIBkiyZYs)
 
-> TUIO / OSC Data **OUTSIDE** Notch
-- TouchDesigner [Youtube Tutorial](https://www.youtube.com/watch?v=ZgbljA4bN-8) /  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
-- [LightAct Tutorial](https://www.youtube.com/watch?v=j2YtyYr69j4)
+You can export a Notch block to use it inside a media server.
 
-Example
--------------------------------------
-![Notch-Augmenta](https://user-images.githubusercontent.com/64955193/136235171-f96533bb-cc09-4945-a98a-d9572686424b.gif)
+Notch block example download : https://github.com/Augmenta-tech/Augmenta-notch-example/releases
 
-How to use
+This example is designed to have two distincts workflows from the same block
+
+
+
+
+> Receiving TUIO / OSC Data **INSIDE** the Notch block
+
+The TUIO and OSC data will be received from the ports already defined in the Notch. (Default to TUIO : 13000 and OSC : 13100)
+
+/!\ It is not possible to expose these ports values in the Notch block so it's not possible to change those ports (at the time of writing) !
+
+-------------------------
+
+
+TODO
+Get fusion (temporary soon simulator)
+Presets Notch
+
+
+-------------------------
+
+> Receiving TUIO / OSC Data **OUTSIDE** the Notch block
+
+The TUIO and OSC data will be received from the media server and then the resulting data (scene size and object position array) will be passed to the Notch block.
+
+Note : This is useful when you intend to have several Augmenta Notch block in your media server composition. This workflow enables creating one OSC TUIO connection and pass the data to the different blocks instead of creating one connection per block. 
+
+/!\ Be careful that since we cannot expose or disable the Notch functionnality, the ports 13000 and 13100 will still be bound and reserved by the Notch block
+
+-------------------------------
+
+
+TODO
+
+Touch Designer :  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
+Examples projects and explanantions
+
+----------------------------
+
+
+
+
+
+How to : Notch
 -------------------------------------
 
 ### Setup
@@ -70,7 +123,7 @@ Your are ready now to make your own creation with [Notch] and [Augmenta] ! Enjoy
 [Augmenta] Documentation
 -------------
 
-https://github.com/Theoriz/Augmenta/wiki
+https://github.com/Augmenta-tech/Augmenta/wiki
 
 Version
 -------------
