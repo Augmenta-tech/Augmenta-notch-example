@@ -23,56 +23,8 @@ Youtube tutorial
 
 
 > Receiving TUIO / OSC Data from **OUTSIDE** the Notch block
-- [Notch + TouchDesigner](https://www.youtube.com/watch?v=ZgbljA4bN-8)
+- [Notch + TouchDesigner](https://www.youtube.com/watch?v=ZgbljA4bN-8),  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
 - [Notch + LightAct](https://www.youtube.com/watch?v=j2YtyYr69j4)
-
-How to : Notch block for media servers
--------------------------------------
-
-You can export a Notch block to use it inside a media server.
-
-Notch block example download : https://github.com/Augmenta-tech/Augmenta-notch-example/releases
-
-This example is designed to have two distincts workflows from the same block
-
-
-
-
-> Receiving TUIO / OSC Data **INSIDE** the Notch block
-
-The TUIO and OSC data will be received from the ports already defined in the Notch. (Default to TUIO : 13000 and OSC : 13100)
-
-/!\ It is not possible to expose these ports values in the Notch block so it's not possible to change those ports (at the time of writing) !
-
--------------------------
-
-
-TODO
-Get fusion (temporary soon simulator)
-Presets Notch
-
-
--------------------------
-
-> Receiving TUIO / OSC Data **OUTSIDE** the Notch block
-
-The TUIO and OSC data will be received from the media server and then the resulting data (scene size and object position array) will be passed to the Notch block.
-
-Note : This is useful when you intend to have several Augmenta Notch block in your media server composition. This workflow enables creating one OSC TUIO connection and pass the data to the different blocks instead of creating one connection per block. 
-
-/!\ Be careful that since we cannot expose or disable the Notch functionnality, the ports 13000 and 13100 will still be bound and reserved by the Notch block
-
--------------------------------
-
-
-TODO
-
-Touch Designer :  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
-Examples projects and explanantions
-
-----------------------------
-
-
 
 
 
@@ -124,6 +76,38 @@ _/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion 
 Your are ready now to make your own creation with [Notch] and [Augmenta] ! Enjoy and share it ;)
 
 ![notch](https://user-images.githubusercontent.com/64955193/137765010-f3080e04-b7bc-4554-96cc-15916cfb9879.PNG)
+
+
+How to : Notch block for media servers
+-------------------------------------
+
+You can export a Notch block to use it inside a media server.
+
+Notch block example download : https://github.com/Augmenta-tech/Augmenta-notch-example/releases
+
+This example is designed to have two distincts workflows from the same block
+
+
+
+
+> Receiving TUIO / OSC Data **INSIDE** the Notch block
+
+The TUIO and OSC data will be received from the ports already defined in the Notch. (Default to TUIO : 13000 and OSC : 13100)
+
+/!\ It is not possible to expose these ports values in the Notch block so it's not possible to change those ports (at the time of writing) !
+
+
+
+> Receiving TUIO / OSC Data **OUTSIDE** the Notch block
+
+The TUIO and OSC data will be received from the media server and then the resulting data (scene size and object position array) will be passed to the Notch block.
+
+Note : This is useful when you intend to have several Augmenta Notch block in your media server composition. This workflow enables creating one OSC TUIO connection and pass the data to the different blocks instead of creating one connection per block. 
+
+/!\ Be careful that since we cannot expose or disable the Notch functionnality, the ports 13000 and 13100 will still be bound and reserved by the Notch block
+
+- Touch Designer :  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
+
 
 
 [Augmenta] Documentation
