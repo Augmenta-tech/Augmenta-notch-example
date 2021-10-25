@@ -113,6 +113,12 @@ _/!\ (The simulator is not yet supporting TUIO as output, so we will use Fusion 
 ![Capture3](https://user-images.githubusercontent.com/64955193/136353915-155349b5-822f-4c6f-ac42-8d3975200ba1.PNG)
 
 
+### Augmenta Block
+
+![Notch Explication](https://user-images.githubusercontent.com/64955193/138668018-1e807f93-c002-437e-b38a-5d8604bbcd32.png)
+
+
+
 ### Create
 
 Your are ready now to make your own creation with [Notch] and [Augmenta] ! Enjoy and share it ;)
