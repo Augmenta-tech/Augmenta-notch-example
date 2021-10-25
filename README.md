@@ -23,8 +23,8 @@ Youtube tutorial
 
 
 > Receiving TUIO / OSC Data from **OUTSIDE** the Notch block
-- [Notch + TouchDesigner](https://www.youtube.com/watch?v=ZgbljA4bN-8),  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
-- [Notch + LightAct](https://www.youtube.com/watch?v=j2YtyYr69j4)
+- [Notch + TouchDesigner tutorial](https://www.youtube.com/watch?v=ZgbljA4bN-8),  [repo Github](https://github.com/Augmenta-tech/Notch-with-Data-in-TD)
+- [Notch + LightAct tutorial](https://www.youtube.com/watch?v=j2YtyYr69j4)
 
 
 
