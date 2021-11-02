@@ -14,6 +14,7 @@ Youtube tutorial
 - [Notch tutorial](https://www.youtube.com/watch?v=3uz8RHAXWkc&ab_channel=Augmenta)
 
 ### Notch block embedded in media servers
+_Notch block example download : https://github.com/Augmenta-tech/Augmenta-notch-example/releases_
 
 > Receiving TUIO / OSC Data from **INSIDE** the Notch block
 - [Notch + Lightact tutorial](https://www.youtube.com/watch?v=7BTLzxSvlQY&t=78s)
