@@ -4,7 +4,7 @@ Download Notch Block for Media Server [here](https://github.com/Augmenta-tech/Au
 
 ### In Video
 
-{% embed url="https://youtu.be/a94huZb3eso" %}
+{% embed url="https://www.youtube.com/watch?t=142s&v=7BTLzxSvlQY" %}
 
 ### Written Tutorial
 
