@@ -11,7 +11,6 @@
 
 * Make sure you have the same OSC Input in Notch as the Remote Port in Augmenta Fusion or Augmenta Simulator
 * Make sure you receive data in OSC Node
-*
 * If it still doesn't work, restart Notch
 
 
