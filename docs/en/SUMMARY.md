@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Augmenta for Notch](README.md)
 * [Getting started with Notch](getting-started-with-notch/README.md)
   * [Augmenta plugins for Notch](getting-started-with-notch/augmenta-plugins-for-notch.md)
   * [Troubleshooting](getting-started-with-notch/troubleshooting.md)
